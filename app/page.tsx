@@ -16,9 +16,9 @@ export default async function Home() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
+          <h1 className={styles.title}>世界の建造物紹介サイト</h1>
           <p className={styles.description}>
-            私たちは市場をリードしているグローバルテックカンパニーです。
+            世界中の様々な建物を紹介します。ぜひ世の知識を高めてください
           </p>
         </div>
         <Image
@@ -32,7 +32,7 @@ export default async function Home() {
         />
       </section>
       <section className={styles.news}>
-        <h2 className={styles.newsTitle}>News</h2>
+        <h2 className={styles.newsTitle}>建造物</h2>
         <NewsList news={data.contents} />
         <div className={styles.newsLink}>
           <ButtonLink href="/news">もっとみる</ButtonLink>
