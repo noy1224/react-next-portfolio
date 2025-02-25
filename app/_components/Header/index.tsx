@@ -9,10 +9,10 @@ export default function Header() {
       <Link href="/" className={styles.logoLink}>
         <Image
           src="ホームボタン.jpg"
-          alt=""
+          alt="/"
           className={styles.logo}
-          width={500}
-          height={250}
+          width={348}
+          height={133}
           priority
         />
       </Link>
