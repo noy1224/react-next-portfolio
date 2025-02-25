@@ -31,7 +31,7 @@ type Props = {
             ) : (
               <Image
                 className={styles.image}
-                src="/no-image.png"
+                src="25957752.jpg"
                 alt="No Image"
                 width={1200}
                 height={630}
