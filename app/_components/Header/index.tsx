@@ -11,8 +11,8 @@ export default function Header() {
           src="ホームボタン.jpg"
           alt=""
           className={styles.logo}
-          width={348}
-          height={133}
+          width={500}
+          height={250}
           priority
         />
       </Link>
