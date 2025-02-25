@@ -8,7 +8,7 @@ export default function Header() {
     <header className={styles.header}>
       <Link href="/" className={styles.logoLink}>
         <Image
-          src="ホームボタン.jpg"
+          src="/ホームボタン.jpg"
           alt=""
           className={styles.logo}
           width={348}
