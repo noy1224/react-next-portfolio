@@ -9,11 +9,6 @@ export default async function Page() {
     limit: NEWS_LIST_LIMIT,
   });
 
-  return (
-    <>
-      <SearchField />
-      <NewsList news={news} />
-      <Pagination totalCount={totalCount} />
-    </>
-  );
+  return <NewsList news={news} />;
+
 }

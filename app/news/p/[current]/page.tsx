@@ -26,10 +26,5 @@ export default async function Page({ params }: Props) {
     notFound();
   }
 
-  return (
-    <>
-      <NewsList news={news} />
-      <Pagination totalCount={totalCount} current={current} />
-    </>
-  );
+  return <NewsList news={news} />;
 }
